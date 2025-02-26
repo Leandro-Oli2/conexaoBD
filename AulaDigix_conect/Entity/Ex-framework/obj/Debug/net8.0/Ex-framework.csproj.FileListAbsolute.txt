@@ -1,0 +1,6 @@
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.csproj.AssemblyReference.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.AssemblyInfoInputs.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.AssemblyInfo.cs
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.csproj.CoreCompileInputs.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Entity\Ex-framework\obj\Debug\net8.0\Ex-framework.sourcelink.json
