@@ -1,0 +1,15 @@
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\bin\Debug\net8.0-windows\Exemplo1_Winforms_IDE.exe
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\bin\Debug\net8.0-windows\Exemplo1_Winforms_IDE.deps.json
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\bin\Debug\net8.0-windows\Exemplo1_Winforms_IDE.runtimeconfig.json
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\bin\Debug\net8.0-windows\Exemplo1_Winforms_IDE.dll
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\bin\Debug\net8.0-windows\Exemplo1_Winforms_IDE.pdb
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.AssemblyInfoInputs.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.AssemblyInfo.cs
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.csproj.CoreCompileInputs.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.sourcelink.json
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.dll
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\refint\Exemplo1_Winforms_IDE.dll
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.pdb
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\Exemplo1_Winforms_IDE.genruntimeconfig.cache
+C:\Users\leandrocandido\Desktop\conexaoBD\AulaDigix_conect\Window_Forms\Exemplo1_Winforms_IDE\obj\Debug\net8.0-windows\ref\Exemplo1_Winforms_IDE.dll

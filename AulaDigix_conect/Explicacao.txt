@@ -1,0 +1,6 @@
+Formas de Conexão Banco de Dados Relacional com C#
+1. ADO.NET (ActiveX Data Objects)
+o ADO e o ADO.NET são bibliotecas de acesso a dados que permitem a conexão com bancos de dados relacionais.
+Ele faz conexão diretas com o banco de dados, sem a necessidade de um servidor intermediário.
+
+var r = (select * from Tabela);

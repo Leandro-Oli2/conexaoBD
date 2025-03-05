@@ -9,14 +9,14 @@ namespace Ex_framework
 {
     public class DB: DbContext
     {
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;database=conexaoBD;Username=postres;password=Oliveira@87185");
+            optionsBuilder.UseNpgsql("Host=localhost;database=conexaoBD;Username=postgres;password=Oliveira@87185");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<Usuario>().ToTable("Usuario");
+            modelBuilder.Entity<Usuario>().ToTable("usuario");
         }
     }
 }

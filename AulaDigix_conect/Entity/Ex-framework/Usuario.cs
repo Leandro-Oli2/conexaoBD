@@ -9,7 +9,7 @@ namespace Ex_framework
     [Table("Usuario")]
     public class Usuario
     {
-        [Column("id_user")]
+        [Column("id")]
         public int Id { get; set; }
 
         [Column("nome")]
