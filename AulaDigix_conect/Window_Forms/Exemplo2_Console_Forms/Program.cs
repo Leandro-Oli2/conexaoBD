@@ -72,12 +72,31 @@ namespace Exemplo2_Console_Forms
                                   $"Subtração: {num1 - num2}\n" +
                                   $"Multiplicação: {num1 * num2}\n" +
                                   $"Divisão: {(num2 != 0 ? (num1 / (double)num2).ToString("F2") : "Erro: divisão por zero")}";
-                MessageBox.Show(resultado, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ResultadoForm resultadoForm = new ResultadoForm(resultado);
+                resultadoForm.ShowDialog();
             }
             catch (FormatException)
             {
                 MessageBox.Show("Por favor, insira valores numéricos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+    }
+    public class ResultadoForm : Form{
+        public ResultadoForm(string resultado)
+        {
+            this.Text = "Resultado";
+            this.Size = new Size(300, 250);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.BackColor = Color.White;
+
+            Label resultadoLabel = new Label();
+            resultadoLabel.Text = resultado;
+            resultadoLabel.Location = new Point(20, 20);
+            resultadoLabel.Size = new Size(250, 150);
+            resultadoLabel.Font = new Font("Arial", 10, FontStyle.Regular);
+            resultadoLabel.TextAlign = ContentAlignment.MiddleLeft;
+
+            this.Controls.Add(resultadoLabel);
         }
     }
 }
