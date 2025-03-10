@@ -33,7 +33,7 @@ namespace exercicio
                 var usuarios = db.Usuarios.ToList();
                 foreach (var usuario in usuarios)
                 {
-                    string linha = ($"Id: {usuario.Id},  Nome: {usuario.Nome},  Especialidade: {usuario.Especialidade},  Ramal: {usuario.Ramal}");
+                    string linha = $"Id: {usuario.Id},  Nome: {usuario.Nome},  Especialidade: {usuario.Especialidade},  Ramal: {usuario.Ramal}";
                     clientes.Add(linha);
                 }
             }
@@ -78,24 +78,38 @@ namespace exercicio
 
 
         //Maquina
-        public void InserirMaquina(int id, string senha, int velocidade, int hardD, int Placa, int memoria, int fk_user )
+        public void InserirMaquina(int id, string senha, int velocidade, int hardDisk, int placa, int memoria, int fkUsuario)
         {
             using (var db = new DB())
             {
-                db.Maquinas.Add(new Maquina { Id_maquina = id, Senha = senha, Velocidade = velocidade, HardDisk = hardD, Placa = Placa, Memoria = memoria, FkUsuario = fk_user });
+                var novaMaquina = new Maquina
+                {
+                    Id_maquina = id,
+                    Senha = senha,
+                    Velocidade = velocidade,
+                    HardDisk = hardDisk,
+                    Placa = placa,
+                    Memoria = memoria,
+                    FkUsuario = fkUsuario 
+                };
+
+                db.Maquinas.Add(novaMaquina);
                 db.SaveChanges();
             }
         }
-        public void ListarMaquina()
+        public List<string> ListarMaquina()
         {
+            List<string> maqui = new List<string>();
             using (var db = new DB())
             {
                 var maquinas = db.Maquinas.ToList();
                 foreach (var maquina in maquinas)
                 {
-                    Console.WriteLine($"Id: {maquina.Id_maquina} Velocidade: {maquina.Velocidade} HardDisk: {maquina.HardDisk}");
+                    string linha = $"Id: {maquina.Id_maquina} Velocidade: {maquina.Velocidade} HardDisk: {maquina.HardDisk}";
+                    maqui.Add(linha);
                 }
             }
+            return maqui;
         }
          public void AtualizarMaquina(int id, int novaVelocidade, int placa)
         {
@@ -142,16 +156,19 @@ namespace exercicio
                 db.SaveChanges();
             }
         }
-        public void ListarSoftware()
+        public List<string> ListarSoftware()
         {
+            List<string> soft = new List<string>();
             using (var db = new DB())
             {
                 var softwares = db.Software.ToList();
                 foreach (var software in softwares)
                 {
-                    Console.WriteLine($"Id: {software.Id_soft}, Produto: {software.Produto} HardDisk: {software.HardDisk}");
+                    string linha = $"Id: {software.Id_soft}, Produto: {software.Produto} HardDisk: {software.HardDisk}";
+                    soft.Add(linha);
                 }
             }
+            return soft;
         }
          public void AtualizarSoftware(int id, string novoProd, int HardD)
         {

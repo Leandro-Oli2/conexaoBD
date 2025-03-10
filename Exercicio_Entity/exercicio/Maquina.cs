@@ -29,10 +29,10 @@ namespace exercicio
         [Column("memoria_ram")]
         public int Memoria { get; set; }
 
-        [Column("fk_Usuario")]
+        [Column("fk_usuario")]
         public int FkUsuario { get; set; }  
 
-        [ForeignKey("fk_Usuario")] 
-        public Usuarios Usuario { get; set; }  
+        [ForeignKey("FkUsuario")] 
+        public virtual Usuarios Usuario { get; set; }  
     }
 }

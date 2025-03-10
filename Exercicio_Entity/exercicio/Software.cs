@@ -28,7 +28,7 @@ namespace exercicio
         public int FkMaquina { get; set; }
 
         // Definindo o relacionamento com a Maquina
-        [ForeignKey("fk_maquina")]
-        public Maquina Maquina { get; set; }
+        [ForeignKey("FkMaquina")]
+        public virtual Maquina Maquina { get; set; }
     }
 }
