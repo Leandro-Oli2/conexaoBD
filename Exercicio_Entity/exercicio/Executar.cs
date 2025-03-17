@@ -212,11 +212,11 @@ namespace exercicio
             string espec = txtEspec.Text;
 
             crud.InserirUsuario(id, senha, nome, ramal, espec);
-            MessageBox.Show("Usuário Inserido Com Sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Usuario Inserido Com Sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         catch (Exception ex)
         {
-            MessageBox.Show("Erro ao Inserir Usuário: " + ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Erro ao Inserir Usuario: " + ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 
